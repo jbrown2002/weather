@@ -48,5 +48,34 @@ Temperature Insight: Labeled as Cold, Warm, or Hot based on Celsius value
 
 Day of the Week: Extracted from timestamp
 
+## Destination
 
+Database: SQLite
 
+Table: weather
+
+Stored Fields:
+
+- City
+
+- Temperature (°C)
+
+- Humidity
+
+- Feels Like Temperature (How Temperature and Humidity interact)
+
+- Humidity Category
+
+- Weather Description
+
+- Weather Category
+
+- Temperature Insight
+
+- Day of the Week
+
+- Timestamp
+
+## Automation
+
+The ETL pipeline is scheduled using the schedule Python library, and it is configured to run every 30 minutes. The scheduler runs continuously in a loop and can be terminated manually with Ctrl+C.
