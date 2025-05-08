@@ -78,4 +78,4 @@ Stored Fields:
 
 ## Automation
 
-The ETL pipeline is scheduled using the schedule Python library, and it is configured to run every 30 minutes. The scheduler runs continuously in a loop and can be terminated manually with Ctrl+C.
+The ETL pipeline is scheduled using the schedule Python library, and it is configured to run every hour. The scheduler runs continuously in a loop and can be terminated manually with Ctrl+C.
