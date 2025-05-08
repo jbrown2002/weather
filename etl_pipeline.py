@@ -146,7 +146,7 @@ def etl_pipeline():
 # Schedule
 def schedule_pipeline():
     try:
-        schedule.every(30).seconds.do(etl_pipeline)
+        schedule.every().hour.do(etl_pipeline)
         print("Pipeline scheduled to run every hour.")
     except Exception as e:
         logging.error(f"Error scheduling pipeline: {e}")
