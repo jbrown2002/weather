@@ -22,9 +22,9 @@ Fields Extracted:
 
 ## Transformation
 
-After extraction, the data undergoes several transformations:
+After extraction, the API data goes under a couple of transformations:
 
-Temperature conversion: Kelvin to Celsius
+Temperature Conversion: Kelvin to Celsius
 
 Feels Like: Approximate "feels like" temperature using humidity
 
@@ -40,19 +40,19 @@ Based on value:
 
 **Weather Categorization:** 
 
-Generalized weather into:
+Generalized weather info:
 
 Clear, Cloudy, Rainy, Snowy, Thunderstorm, Other
 
 Temperature Insight: Labeled as Cold, Warm, or Hot based on Celsius value
 
-Day of the Week: Extracted from timestamp
+Day of the Week: Extracted and transformed from timestamp within the data
 
 ## Destination
 
-Database: SQLite
+Database: SQLite database file (weather_data.db)
 
-Table: weather
+Table Name: weather
 
 Stored Fields:
 
