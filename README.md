@@ -6,7 +6,7 @@ The data for this project comes from the OpenWeather Current Weather Data API, w
 
 - API Link: [OpenWeatherMap Current Weather API] (https://openweathermap.org/current)
 
-City: London (can be modified in the script)
+City: London, UK
 
 Fields Extracted:
 
