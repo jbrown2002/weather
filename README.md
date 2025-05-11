@@ -32,11 +32,11 @@ Feels Like: Approximate "feels like" temperature using humidity
 
 Based on value:
 
-<30%: Low
+<30% : Low
 
-30–60%: Medium
+30–60% : Medium
 
->60%: High
+60%+ : High
 
 **Weather Categorization:** 
 
